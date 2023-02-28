@@ -1,0 +1,31 @@
+- clean: ['~']
+
+- link:
+    ~/.zprofile: zprofile
+    ~/.zshrc: zshrc
+    ~/.oh-my-zsh: oh-my-zsh
+    ~/.tmux.conf: tmux.conf
+    ~/.config/nvim/init.vim:
+      create: true
+    ~/.alacritty.yml: alacritty.yml
+
+# - shell:
+#     -
+#       command: defaults write -g InitialKeyRepeat 5
+#       description: Change time to start key repeat.
+#       quiet: true
+#     -
+#       command: defaults write -g KeyRepeat 1
+#       description: Change key repeat speed.
+#       quiet: true
+#     -
+#       command: defaults write com.apple.dock autohide-time-modifier -float 0.3
+#       description: Increase Dock show/hide speed.
+#       quiet: true
+#     -
+#       command: defaults write com.apple.dock autohide-delay -float 0
+#       description: Decrease time delay until Dock show/hide.
+#       quiet: true
+    
+
+
